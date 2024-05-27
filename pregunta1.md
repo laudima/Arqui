@@ -1,5 +1,6 @@
 # Codificacion de Instrucciones (Intel 32 bits, ARM M4) 
- Investigar como codifica intel su conjunto de instrucciones de 32bits, así como para un procesador ARM M4.
+ 
+Investigar como codifica intel su conjunto de instrucciones de 32bits, así como para un procesador ARM M4.
 
 ---
 
@@ -49,6 +50,8 @@
 
 - En el caso de ARM M4, las instrucciones son de *longitud fija* en el conjunto de instrucciones Thumb, siendo la mayoría de 16 bits (2 bytes), aunque algunas instrucciones se extienden a 32 bits (4 bytes).
 - Para las instrucciones de 32 bits, los bits se dividen entre varios campos como opcode, operandos y condición, pero la suma total de bits no excede de 32.
+
+![Set de Instrucciones de ARM](./instruction-set-arm.png)
 
   ### Fuentes 
 1) [An Introduction to Intel 32-bit Instruction Decoding - Medium](https://medium.com/@g.c.dassanayake/an-introduction-to-intel-32-bit-instruction-decoding-9b3b0c15bebb)

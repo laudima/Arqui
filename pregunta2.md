@@ -14,3 +14,9 @@ Las pilas tambien se usan en las llamadas recursivas de los lenguajes de program
 ![Pilas en lenguajes de programación](./Pila-en-lenguajes.png)
 
 ![Animación del código C que se ejecuta en un procesador ARM](https://lloydrochester.com/assets/svg/frame.svg)
+
+Otro ejemplo de uso de stack en registros de un ARM
+
+![Stack ejemplo](./stack-example.png)
+
+
