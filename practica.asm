@@ -4,6 +4,9 @@
 main:
     ; MULTIPLICACION DE DOS VALORES POSITIVOS
 
+	cmp r7, #1 		;si regresamos a Main despues de haber ejecutado la ultima instruccion
+	beq terminar 	;terminamos el programa
+
     mov r9, #2     ; primer valor a multiplicar
     mov r10, #3    ; segundo valor a multiplicar
     mov r11, #0    ; resultado de la multiplicación
@@ -15,13 +18,11 @@ main:
     bl factorial  ; llamar a la función factorial
 
     ; FACTORIAL DE UN NUMERO USANDO LA FUNCION MULTIPLICACION
-    mov r2, #5    ; número para calcular el factorial
+    mov r2, #3    ; número para calcular el factorial
     mov r12, #1   ; resultado del factorial
     bl factorial_multi  ; llamar a la función factorial_multi
 
     ; FIN DEL PROGRAMA
-    mov r7, #0x18 ; syscall para terminar el programa
-    svc 0         ; llamar al sistema
 
 
 ;3.Realice un programa en ensamblador ARM para el proc TIVA que calcule la multipliación
@@ -82,6 +83,10 @@ factorial_multi_loop:
     b factorial_multi_loop  ; Repetir el bucle
 
 fin_factorial_multi:
-    bx lr                   ; lr "Link Register", Retornar de la función
+	mov r7,#1
+	b main
+
+terminar:
 
 .end
+
