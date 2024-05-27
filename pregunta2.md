@@ -19,4 +19,12 @@ Otro ejemplo de uso de stack en registros de un ARM
 
 ![Stack ejemplo](./stack-example.png)
 
+### Fuentes 
 
+1. Tanenbaum, A. S. (2016). Structured Computer Organization (6th ed.). Pearson.
+
+2. Hennessy, J. L., & Patterson, D. A. (2017). Computer Architecture: A Quantitative Approach (6th ed.). Morgan Kaufmann.
+
+3. Ramírez Pulido, K. & Escalona González, F. E. (2004). Estado, Notas de clase. Facultad de Ciencias, UNAM.
+
+4. Salomon, D. (1993). Assemblers and Loaders. Ellis Horwood Ltd.
