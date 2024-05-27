@@ -4,7 +4,9 @@ Investigar como codifica intel su conjunto de instrucciones de 32bits, así como
 
 ---
 
-**Intel 32-bit (IA-32)**
+## Intel 32-bit (IA-32)
+
+### Numero de bits 
 
 - *Prefijos de Instrucción*: Hasta 4 bytes (32 bits), opcionales.
 - *Opcode*: De 1 a 3 bytes (8 a 24 bits).
@@ -14,6 +16,8 @@ Investigar como codifica intel su conjunto de instrucciones de 32bits, así como
 - *SIB*: 1 byte (8 bits), opcional, usado para escalado de índice y base.
 - *Desplazamiento*: De 1 a 4 bytes (8 a 32 bits)
 - *Inmediato*: De 1 a 4 bytes (8 a 32 bits)
+
+### Descripcion 
 
 - *Prefijos de Instrucción*: Los prefijos de instrucción son de 4 tipos y cada tipo tiene un propósito específico.
 - *Opcode*: El código de operación especifica la operación que debe realizarse.
@@ -31,7 +35,9 @@ Investigar como codifica intel su conjunto de instrucciones de 32bits, así como
 * La longitud de la instrucción se determina por varios componentes, como prefijos de instrucción, opcode, ModR/M, SIB, desplazamiento e inmediato. Estos componentes pueden variar en tamaño y no todos son requeridos en cada instrucción.
 
 
-*ARM M4 (ARMv7-M)*
+## ARM M4 (ARMv7-M)
+
+## Codificacion de instrucciones 
 
 - *Instrucciones Thumb*: Mayormente 16 bits (2 bytes), algunas extendidas a 32 bits (4 bytes).
 - *Campos de Operación*: Varían según la instrucción, pero típicamente incluyen:
