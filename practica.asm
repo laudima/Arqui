@@ -2,10 +2,11 @@
     	.text
 
 main:
-    ; MULTIPLICACION DE DOS VALORES POSITIVOS
 
 	cmp r7, #1 		;si regresamos a Main despues de haber ejecutado la ultima instruccion
 	beq terminar 	;terminamos el programa
+
+    ; MULTIPLICACION DE DOS VALORES POSITIVOS
 
     mov r9, #2     ; primer valor a multiplicar
     mov r10, #3    ; segundo valor a multiplicar
