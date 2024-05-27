@@ -1,7 +1,5 @@
 # Practica 4 
 
-### Integrantes 
-
 ## Organizacion y arquitectura de computadoras
 
 ## Integrantes: 
@@ -10,7 +8,13 @@
 * Rodriguez Dimayuga Laura Itzel
 * Osorio Rangel Yali
 
-## Pregunta 1 
-[Codificacion de Instrucciones (Intel 32 bits, ARM M4)](preguntas.md)
+### Ejercicio 1 
+[Codificacion de Instrucciones (Intel 32 bits, ARM M4)](pregunta1.md)
 
-## Pregunta 2
+### Ejercicio 2
+[Stack de un procesador](pregunta2.md)
+
+### Ejercicio 3-5 
+
+[Multiplicación y factorial](practica.asm)
+

@@ -16,7 +16,7 @@
   - *Condición*: 4 bits para instrucciones condicionales.
 
   ### Fuentes 
-1) [An Introduction to Intel 32-bit Instruction Decoding - Medium](https://medium.com/@g.c.dassanayake an-introduction-to-intel-32-bit-instruction-decoding-9b3b0c15bebb)
+1) [An Introduction to Intel 32-bit Instruction Decoding - Medium](https://medium.com/@g.c.dassanayake/an-introduction-to-intel-32-bit-instruction-decoding-9b3b0c15bebb)
 2) [Documentation – Arm Developer](https://developer.arm.com/documentation/ddi0439/b/Programmers-Model/Instruction-set-summary/Cortex-M4-instructions?lang=en)
 3) [A Beginners' Guide to x86-64 Instruction Encoding - SysTutorials](https://www.systutorials.com/beginners-guide-x86-64-instruction-encoding/)
 4) [Assembly instruction length of 32-bit program - Stack Overflow](https://stackoverflow.com/questions/60100987/assembly-instruction-length-of-32-bit-program)
